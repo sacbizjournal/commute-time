@@ -72,6 +72,9 @@
 
       map.addControl(new mapboxgl.NavigationControl());
 
+      // disable zooming with scroll
+      map.scrollZoom.disable();
+
       // add reset button
       const resetButton = document.getElementById("resetButton");
 
